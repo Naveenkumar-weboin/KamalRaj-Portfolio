@@ -2,10 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { useTheme } from "next-themes";
 
-import { BsArrowUpRight } from "react-icons/bs";
 
 import FloatBlack from "@/public/float-black.svg";
 import FloatWhite from "@/public/float-white.svg";
+import ProjectButton from "./ProjectButton";
 
 const Experience = () => {
   const { systemTheme, theme, setTheme } = useTheme();
@@ -110,15 +110,14 @@ const Experience = () => {
           that i have created using above domain.
         </div>
         <div className="flex justify-center space-x-3 md:space-x-6 lg:space-x-8 items-center  my-4">
-          <div className=" group border-blue-400 hover:bg-blue-400 text-blue-500 hover:text-white hover:drop-shadow-2xl rounded-md md:rounded-xl px-2 py-1 md:px-4 md:py-2 shadow-md drop-shadow-lg dark:bg-blue-400 dark:shadow-none dark:hover:shadow-white select-none dark:text-white shadow-blue-300">
+          {/* <div className=" group border-blue-400 hover:bg-blue-400 text-blue-500 hover:text-white hover:drop-shadow-2xl rounded-md md:rounded-xl px-2 py-1 md:px-4 md:py-2 shadow-md drop-shadow-lg dark:bg-blue-400 dark:shadow-none dark:hover:shadow-white select-none dark:text-white shadow-blue-300">
+          </div> */}
             <Link
               href="/work"
               className="flex items-center font-normal lg:font-bold space-x-2 text-sm md:text-base  "
             >
-              <BsArrowUpRight className=" dark:stroke-white stroke-blue-400 stroke-2 group-hover:stroke-white " />
-              <p>Projects</p>
+              <ProjectButton/>
             </Link>
-          </div>
         </div>
       </div>
     </div>
