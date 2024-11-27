@@ -12,7 +12,7 @@ const Experience = () => {
   const currentTheme = theme === "system" ? systemTheme : theme;
 
   const today = new Date();
-  const startDate = new Date(2022, 6);
+  const startDate = new Date(2024, 6);
   let diffYears = today.getFullYear() - startDate.getFullYear();
   let diffMonths = today.getMonth() - startDate.getMonth();
   if (
@@ -40,7 +40,7 @@ const Experience = () => {
       </div>
       <div className="w-[80%] mx-auto">
         <div className="text-center max-w-2xl mx-auto tracking-normal leading-5 text-base sm:text-[1.1rem] lg:text-lg">
-          During these years of Frontend Development Experience, I have
+          During these years of Development Experience, I have
           developed a strong problem-solving and critical thinking skills, and
           am able to quickly adapt to new technologies and methods of working.
           Given are some skill-set that I have learned and am still actively

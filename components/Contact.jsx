@@ -16,24 +16,24 @@ const Contact = () => {
         </p>
         <div className="grid grid-cols-2 text-[0.7rem] md:text-[0.85rem] lg:text-base gap-2 md:gap-3 lg:gap-4">
           <a
-            href="https://www.twitter.com/pranjalshikhar"
+            href="#"
             target="_blank"
             className=" flex align-middle items-center font-jak font-bold space-x-1 w-max "
           >
             <TfiTwitterAlt className="text-[#518FC7] dark:text-[#2498fe] h-3 w-3 md:h-4 md:w-4 " />
             <h5 className="text-transparent dark:text-[#2498fe]">
-              pranjalshikhar
+              Kamal Raj
             </h5>
           </a>
           <a
-            href="https://www.linkedin.com/in/pranjalshikhar"
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
             className=" flex align-middle items-center font-jak font-bold space-x-1 w-max "
           >
             <TfiLinkedin className="text-[#CA6298] dark:text-[#ff339c] h-3 w-3 md:h-4 md:w-4 " />
             <h5 className="text-transparent dark:text-[#ff339c]">
-              pranjalshikhar
+            Kamal Raj
             </h5>
           </a>
         </div>

@@ -36,7 +36,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>pranjal ✦ developer, designer</title>
+        <title>Kamal Raj-Portfolio</title>
         <link rel="icon" href="/Avatar-white.svg" />
       </Head>
       <div className="lg:min-h-screen px-10 sm:px-20 md:px-32 lg:mb-12 lg:px-60 mx-auto max-w-[75rem]">
@@ -62,7 +62,7 @@ export default function Home() {
               </h2>
               <h3>
                 <Link
-                  href={"https://www.linkedin.com/in/pranjalshikhar"}
+                  href={"#"}
                   target="_blank"
                   className="text-[#717171bb] flex items-center"
                 >
@@ -74,11 +74,9 @@ export default function Home() {
           </div>
           <div className="mt-12 text-base md:text-xl lg:text-xl xl:text-xl 2xl:text-xl">
             <p className="sm:leading-6 md:leading-6 lg:leading-8">
-              A wizard who loves design and code. I develop modern, reactive,
-              and user-friendly web applications using the latest technologies
-              currently. Believe a perfect blend of user inteface architecture
-              is one, where the goals and needs are accounted for in an elegant,
-              efficient, and robust design of the user interface.
+              Recent graduate with a Master's degree in computer applications and a strong foundation in Fullstack development. Dedicated to leveraging academic knowledge and practical skills to succeed as a Developer. Excited to 
+              provide fresh perspectives and technical expertise to dynamic development projects. Seeking a challenging role where I can 
+              keep learning and developing and contribute significantly to the success of the team. 
             </p>
           </div>
         </div>
