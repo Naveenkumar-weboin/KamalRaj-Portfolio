@@ -11,7 +11,7 @@ import Image from "next/image";
 import Star from "@/public/Star.svg";
 
 const Footer = () => {
-  const [metaData, setMetaData] = useState({ star: 0, forks: 0 });
+  // const [metaData, setMetaData] = useState({ star: 0, forks: 0 });
   const [isHovering, setIsHovering] = useState(false);
   const handleMouseOver = () => {
     setIsHovering(true);
@@ -19,24 +19,24 @@ const Footer = () => {
   const handleMouseOut = () => {
     setIsHovering(false);
   };
-  useEffect(() => {
-    const getData = async () => {
-      const data = await fetch(
-        "https://api.github.com/repos/pranjalshikhar/portfolio-v3"
-      ).then((res) => res.json());
-      setMetaData({
-        star: data.stargazers_count,
-        forks: data.forks_count,
-      });
-    };
-    getData();
-  }, []);
+  // useEffect(() => {
+  //   const getData = async () => {
+  //     const data = await fetch(
+  //       "https://api.github.com/repos/pranjalshikhar/portfolio-v3"
+  //     ).then((res) => res.json());
+  //     setMetaData({
+  //       star: data.stargazers_count,
+  //       forks: data.forks_count,
+  //     });
+  //   };
+  //   getData();
+  // }, []);
 
   return (
     <div className=" flex select-none text-sm  py-16 mt-16 flex-col h-max items-center mx-auto justify-center">
       <div className="flex justify-center space-x-4 md:space-x-6 dark:text-white/70 text-gray-500 text-[0.6rem] sm:text-xs md:text-sm lg:text-md mt-2">
         <Link
-          href="https://www.linkedin.com/in/pranjalshikhar"
+          href="#"
           target="blank"
           className=" dark:hover:text-purple-400 hover:text-purple-600 font-semibold"
         >
@@ -45,7 +45,7 @@ const Footer = () => {
           <Image src={LinkedIn} alt="linkedin" width="30" />
         </Link>
         <Link
-          href="https://github.com/pranjalshikhar?tab=repositories"
+          href="#"
           target="blank"
           className=" dark:hover:text-purple-400 hover:text-purple-600 font-semibold"
         >
@@ -54,7 +54,7 @@ const Footer = () => {
           <Image src={GitHub} alt="github" width="30" />
         </Link>
         <Link
-          href="https://www.behance.net/pranjalshikhar"
+          href="#"
           target="blank"
           className=" dark:hover:text-purple-400 hover:text-purple-600 font-semibold"
         >
@@ -63,7 +63,7 @@ const Footer = () => {
           <Image src={Behance} alt="behnace" width="30" />
         </Link>
         <a
-          href="https://instagram.com/pranjal.fig"
+          href="#"
           target="blank"
           className=" dark:hover:text-purple-400 hover:text-purple-600 font-semibold"
         >
@@ -72,7 +72,7 @@ const Footer = () => {
           <Image src={Instagram} alt="instagram" width="30" />
         </a>
         <Link
-          href="mailto:shikhar.pranjal3@gmail.com"
+          href="#"
           target="blank"
           rel="noreferrer"
           className=" dark:hover:text-purple-400 hover:text-purple-600 font-semibold"
@@ -83,7 +83,7 @@ const Footer = () => {
         </Link>
       </div>
       <a
-        href="https://github.com/pranjalshikhar/portfolio-v3"
+        href="https://github.com/Naveenkumar-weboin/KamalRaj-Portfolio"
         target="blank"
         rel="noreferrer"
         className="flex flex-col text-center group hover:text-purple-800 w-max hover:font-black items-center text-gray-600 text-[0.6rem] sm:text-xs md:text-sm lg:text-md mt-8 md:mt-12 font-syne"
@@ -98,7 +98,7 @@ const Footer = () => {
               isHovering && "scale-150 blur-[6px]"
             } group font-bold animate-text duration-700 transition-all linear  group-hover:bg-white lg:text-gray-700 lg:dark:text-white/40 lg:group-hover:text-transparent bg-gradient-to-r mb-2 from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-sm sm:text-base md:text-lg`}
           >
-            pranjal shikhar sinha
+            Kamal Raj
           </p>
           {isHovering && (
             <p
@@ -112,7 +112,7 @@ const Footer = () => {
             </p>
           )}
         </div>
-        <div className="flex space-x-4 ">
+        {/* <div className="flex space-x-4 ">
           <div className="flex dark:group-hover:text-purple-400 group-hover:text-purple-600  space-x-1 items-center ">
             <FaRegStar className="h-4 w-4 group-hover:stroke-[2.2px] dark:group-hover:fill-purple-400  group-hover:fill-purple-800 " />
             <p className="font-semibold text-sm group-hover:font-extrabold ">
@@ -125,7 +125,7 @@ const Footer = () => {
               {metaData.forks}
             </p>
           </div>
-        </div>
+        </div> */}
       </a>
     </div>
   );

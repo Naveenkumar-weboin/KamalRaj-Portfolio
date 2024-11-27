@@ -4,40 +4,40 @@ const TimeLine = () => {
   const data = [
     {
       id: 0,
-      title: "Digital Specialist Engineer",
-      duration: "July 2022",
-      org: "Infosys",
+      title: "React Js Developer",
+      duration: "July 2024",
+      org: "Whizc",
       skills: ["React.js", "Redux.js", "SASS", "TypeScript"],
       class:
         "bg-red-100 text-red-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-red-900 dark:text-red-300",
     },
-    {
-      id: 1,
-      title: "Web Developer Trainee",
-      duration: "Feb 2021 - Jun 2021",
-      org: "Coding Blocks",
-      skills: ["JavaScript", "React.js", "Node.js", "Express.js", "MongoDB"],
-      class:
-        "bg-green-100 text-green-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300",
-    },
-    {
-      id: 2,
-      title: "Graduate Rotational Internship",
-      duration: "Sep 2020 - Oct 2020",
-      org: "The Spark Foundation",
-      skills: ["React.js", "Stripe", "JWT"],
-      class:
-        "bg-yellow-100 text-yellow-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-yellow-900 dark:text-yellow-300",
-    },
-    {
-      id: 3,
-      title: "Data Analyst Intern",
-      duration: "",
-      org: "The Shaadi Times",
-      skills: ["Python", "Data Analysis", "Dashboard"],
-      class:
-        "bg-pink-100 text-pink-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-pink-900 dark:text-pink-300",
-    },
+    // {
+    //   id: 1,
+    //   title: "Web Developer Trainee",
+    //   duration: "Feb 2021 - Jun 2021",
+    //   org: "Coding Blocks",
+    //   skills: ["JavaScript", "React.js", "Node.js", "Express.js", "MongoDB"],
+    //   class:
+    //     "bg-green-100 text-green-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300",
+    // },
+    // {
+    //   id: 2,
+    //   title: "Graduate Rotational Internship",
+    //   duration: "Sep 2020 - Oct 2020",
+    //   org: "The Spark Foundation",
+    //   skills: ["React.js", "Stripe", "JWT"],
+    //   class:
+    //     "bg-yellow-100 text-yellow-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-yellow-900 dark:text-yellow-300",
+    // },
+    // {
+    //   id: 3,
+    //   title: "Data Analyst Intern",
+    //   duration: "",
+    //   org: "The Shaadi Times",
+    //   skills: ["Python", "Data Analysis", "Dashboard"],
+    //   class:
+    //     "bg-pink-100 text-pink-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-pink-900 dark:text-pink-300",
+    // },
   ];
   return (
     <div>

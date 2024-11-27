@@ -11,7 +11,7 @@ const CategoryCard = () => {
         Anime
       </div>
       <div className=" bg-gradient-to-l from-[#ffdaf9] to-[#ffdcdc] rounded-[0.89rem] px-2 md:px-3 md:py-1 text-[#690c58]">
-        Psychology
+        Tv Series
       </div>
     </div>
   );

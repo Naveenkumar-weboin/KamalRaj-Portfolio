@@ -16,10 +16,10 @@ const Header = () => {
   const router = useRouter().asPath;
   const [mounted, setMounted] = useState(false);
   let Links = [
-    { name: "timeline", link: "/timeline" },
-    { name: "work", link: "/work" },
-    { name: "about", link: "/about" },
-    { name: "tech", link: "/tech" },
+    { name: "Timeline", link: "/timeline" },
+    { name: "Work", link: "/work" },
+    { name: "About", link: "/about" },
+    { name: "Tech", link: "/tech" },
   ];
   const [isScrolled, setIsScrolled] = useState(false);
   let [open, setOpen] = useState(false);
@@ -80,9 +80,16 @@ const Header = () => {
         <div className="select-none order-2 md:order-1 cursor-pointer flex items-center text-gray-800">
           <Link href={"/"} className="">
             {currentTheme === "dark" ? (
-              <Image src={pranjal_header_white} alt="header" width="100" />
+              // <Image src={pranjal_header_white} alt="header" width="100" />
+              <h2 class="text-3xl font-bold text-center bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent">
+              Kamal Raj
+              </h2>
             ) : (
-              <Image src={pranjal_header_black} alt="header" width="100" />
+              // <Image src={pranjal_header_black} alt="header" width="100" />
+              <h2 class="text-3xl font-bold text-center bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent">
+              Kamal Raj
+              </h2>
+            
             )}
           </Link>
         </div>
@@ -146,7 +153,7 @@ const Header = () => {
               >
                 <span>
                   {link.name}
-                  {link.name === "timeline" && (
+                  {link.name === "Timeline" && (
                     <sup className="font-semibold text-[8px] border-sky-100 rounded bg-red-600 px-1 text-white">
                       1
                     </sup>
