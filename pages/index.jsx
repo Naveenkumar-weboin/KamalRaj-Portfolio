@@ -50,7 +50,7 @@ export default function Home() {
             />
             <div className="flex flex-col ml-4">
               <h2 className="flex sm:text-2xl md:text-2xl lg:text-2xl">
-                <span className="font-semibold">pranjal shikhar</span>
+                <span className="font-semibold">KAMAL RAJ</span>
                 <span>
                   <Image
                     src={currentTheme === "dark" ? BooWhite : BooBlack}
@@ -66,7 +66,7 @@ export default function Home() {
                   target="_blank"
                   className="text-[#717171bb] flex items-center"
                 >
-                  <p>@pranjal</p>
+                  <p>@Kamal</p>
                   <BsArrowUpRight className="stroke-1 h-3" />
                 </Link>
               </h3>
