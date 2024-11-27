@@ -74,7 +74,7 @@ export default function Home() {
           </div>
           <div className="mt-12 text-base md:text-xl lg:text-xl xl:text-xl 2xl:text-xl">
             <p className="sm:leading-6 md:leading-6 lg:leading-8">
-              Recent graduate with a Master's degree in computer applications and a strong foundation in Fullstack development. Dedicated to leveraging academic knowledge and practical skills to succeed as a Developer. Excited to 
+              Recent graduate with a Masters degree in computer applications and a strong foundation in Fullstack development. Dedicated to leveraging academic knowledge and practical skills to succeed as a Developer. Excited to 
               provide fresh perspectives and technical expertise to dynamic development projects. Seeking a challenging role where I can 
               keep learning and developing and contribute significantly to the success of the team. 
             </p>
