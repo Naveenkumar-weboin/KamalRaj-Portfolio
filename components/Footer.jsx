@@ -36,8 +36,8 @@ const Footer = () => {
     <div className=" flex select-none text-sm  py-16 mt-16 flex-col h-max items-center mx-auto justify-center">
       <div className="flex justify-center space-x-4 md:space-x-6 dark:text-white/70 text-gray-500 text-[0.6rem] sm:text-xs md:text-sm lg:text-md mt-2">
         <Link
-          href="#"
-          target="blank"
+          href="https://www.linkedin.com/in/kamal-raj-g/"
+          target="_blank"
           className=" dark:hover:text-purple-400 hover:text-purple-600 font-semibold"
         >
           {" "}
@@ -45,8 +45,9 @@ const Footer = () => {
           <Image src={LinkedIn} alt="linkedin" width="30" />
         </Link>
         <Link
-          href="#"
-          target="blank"
+          href="https://github.com/Kamal9305"
+          target="_blank"
+          rel="noopener noreferrer"
           className=" dark:hover:text-purple-400 hover:text-purple-600 font-semibold"
         >
           {" "}
@@ -55,7 +56,8 @@ const Footer = () => {
         </Link>
         <Link
           href="#"
-          target="blank"
+          target="_blank"
+          rel="noopener noreferrer"
           className=" dark:hover:text-purple-400 hover:text-purple-600 font-semibold"
         >
           {" "}
@@ -72,7 +74,7 @@ const Footer = () => {
           <Image src={Instagram} alt="instagram" width="30" />
         </a>
         <Link
-          href="#"
+          href="mailto:kamalraj9305@gmail.com"
           target="blank"
           rel="noreferrer"
           className=" dark:hover:text-purple-400 hover:text-purple-600 font-semibold"
@@ -84,8 +86,8 @@ const Footer = () => {
       </div>
       <a
         href="https://github.com/Naveenkumar-weboin/KamalRaj-Portfolio"
-        target="blank"
-        rel="noreferrer"
+        target="_blank"
+          rel="noopener noreferrer"
         className="flex flex-col text-center group hover:text-purple-800 w-max hover:font-black items-center text-gray-600 text-[0.6rem] sm:text-xs md:text-sm lg:text-md mt-8 md:mt-12 font-syne"
       >
         <div

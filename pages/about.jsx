@@ -41,11 +41,11 @@ export default function About() {
             </h1>
             <div className="mx-auto transition-all duration-1000 ease-in-out -mt-8">
               <Image
-                src={Hero}
+                // src={Hero}
                 height={800}
                 width={800}
                 className="select-none h-40 w-40"
-                alt="pranjal shikhar"
+                alt="Kamal Raj"
                 priority
               />
             </div>
@@ -153,7 +153,7 @@ export default function About() {
             </p>
           </div>
           <div className="flex mx-auto justify-center mt-16 select-none">
-            <span className="font-black font-app text-2xl md:text-3xl align-text-bottom tracking-wider mx-3 md:mx-6"> 
+            <span className="font-black font-app text-2xl md:text-3xl align-text-bottom tracking-wider mx-3 md:mx-6">
               Kamsamida
             </span>
             {currentTheme === "dark" ? (

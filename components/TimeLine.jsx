@@ -4,10 +4,10 @@ const TimeLine = () => {
   const data = [
     {
       id: 0,
-      title: "React Js Developer",
+      title: "Junior Product Developer",
       duration: "July 2024",
-      org: "Whizc",
-      skills: ["React.js", "Redux.js", "SASS", "TypeScript"],
+      org: "Whizzc",
+      skills: ["React.js", "Next.js", "Django", "SASS", "PostgreSQL", "MUI"],
       class:
         "bg-red-100 text-red-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-red-900 dark:text-red-300",
     },
