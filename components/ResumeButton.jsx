@@ -1,26 +1,18 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 const ResumeButton = () => {
-  const handleDownload = () => {
-    const link = document.createElement('a');
-    link.href = '/resume.pdf'; // Path to your resume file
-    link.download = 'My_Resume.pdf'; // Suggests a filename for the downloaded file
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
-
   return (
     <div className="flex justify-center">
-      <button
-        onClick={handleDownload}
-        className="bg-blue-500 text-white font-medium py-2 px-4 rounded hover:bg-blue-700 transition-all duration-300"
+      <a
+        href="Kamal_raj_Resume.pdf"
+        download="Kamal_raj_Resume.pdf"
+        className="bg-blue-500 text-white font-medium py-1.5 px-3 rounded hover:bg-blue-700 transition-all duration-300 flex items-center space-x-2 text-sm"
       >
-        <FontAwesomeIcon icon="fa-thin fa-download" />
-        Resume
-      </button>
+        <FontAwesomeIcon icon={faDownload} />
+        <span>Download Resume</span>
+      </a>
     </div>
   );
 };
