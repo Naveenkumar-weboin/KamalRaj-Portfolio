@@ -7,7 +7,7 @@ import Image from "next/image";
 import CategoryCard from "@/components/CategoryCard";
 
 import Flash from "@/public/Flash.svg";
-import Hero from "@/public/hero.jpg";
+import myImage from "@/public/Image.jpg";
 import Rocket from "@/public/Rocket.svg";
 import Sparkles from "@/public/Sparkles.svg";
 import love_black from "@/public/love-black.svg";
@@ -41,10 +41,10 @@ export default function About() {
             </h1>
             <div className="mx-auto transition-all duration-1000 ease-in-out -mt-8">
               <Image
-                // src={Hero}
+                src={myImage}
                 height={800}
                 width={800}
-                className="select-none h-40 w-40"
+                className="select-none h-40 w-40 rounded-full"
                 alt="Kamal Raj"
                 priority
               />
@@ -121,17 +121,17 @@ export default function About() {
               <span className="text-red-700 font-bold">GMail</span>{" "}
               <a
                 onClick={() =>
-                  navigator.clipboard.writeText("shikhar.pranjal3@gmail.com")
+                  navigator.clipboard.writeText("kamalraj9305@gmail.com")
                 }
                 className=" underline underline-offset-4 decoration-2 decoration-purple-400 group select-all font-semibold dark:hover:text-purple-400 hover:text-purple-700 cursor-pointer select "
-                href="mailto:shikhar.pranjal3@gmail.com"
+                href="mailto:kamalraj9305@gmail.com"
               >
                 {" "}
-                Kamal9305@gmail.com
+                Kamalraj9305@gmail.com
               </a>{" "}
               or <span className="text-blue-700 font-bold">LinkedIn</span>{" "}
               <a
-                href="http://linkedin.com/in/pranjalshikhar"
+                href="https://www.linkedin.com/in/kamal-raj-g/"
                 className=" underline underline-offset-4 decoration-2 decoration-purple-400 font-semibold dark:hover:text-purple-400 hover:text-purple-700 cursor-pointer select"
                 rel="noopener noreferrer"
                 target="blank"
@@ -142,7 +142,7 @@ export default function About() {
               or you can DM me on{" "}
               <span className="text-orange-500 font-bold">Instagram</span>{" "}
               <a
-                href="https://instagram.com/pranjal.fig"
+                href="https://www.instagram.com/imkamalraj_/"
                 target="blank"
                 rel="noopener noreferrer"
                 className=" font-semibold underline underline-offset-4 decoration-2 decoration-purple-400 dark:hover:text-purple-400 hover:text-purple-700 cursor-pointer select "
@@ -154,7 +154,7 @@ export default function About() {
           </div>
           <div className="flex mx-auto justify-center mt-16 select-none">
             <span className="font-black font-app text-2xl md:text-3xl align-text-bottom tracking-wider mx-3 md:mx-6">
-              Kamsamida
+              Thank You
             </span>
             {currentTheme === "dark" ? (
               <Image src={love_white} alt="love" width="30" className="-mt-4" />

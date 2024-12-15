@@ -54,18 +54,18 @@ const Footer = () => {
           {/* GitHub{" "} */}
           <Image src={GitHub} alt="github" width="30" />
         </Link>
-        <Link
-          href="#"
+        {/* <Link */}
+          {/* href="#"
           target="_blank"
           rel="noopener noreferrer"
           className=" dark:hover:text-purple-400 hover:text-purple-600 font-semibold"
-        >
-          {" "}
+        > */}
+          {/* {" "}
           {/* Bēhance{" "} */}
-          <Image src={Behance} alt="behnace" width="30" />
-        </Link>
+          {/* <Image src={Behance} alt="behnace" width="30" />  */}
+        {/* </Link> */}
         <a
-          href="#"
+          href="https://www.instagram.com/imkamalraj_/"
           target="blank"
           className=" dark:hover:text-purple-400 hover:text-purple-600 font-semibold"
         >

@@ -5,7 +5,7 @@ const TimeLine = () => {
     {
       id: 0,
       title: "Junior Product Developer",
-      duration: "July 2024",
+      duration: "August 2024 - Present",
       org: "Whizzc",
       skills: ["React.js", "Next.js", "Django", "SASS", "PostgreSQL", "MUI"],
       class:

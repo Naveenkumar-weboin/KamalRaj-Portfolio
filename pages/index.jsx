@@ -76,11 +76,15 @@ export default function Home() {
             <ResumeButton/>
           </div>
           <div className="mt-12 text-base md:text-xl lg:text-xl xl:text-xl 2xl:text-xl">
-            <p className="sm:leading-6 md:leading-6 lg:leading-8">
-              Recent graduate with a Masters degree in computer applications and a strong foundation in Fullstack development. Dedicated to leveraging academic knowledge and practical skills to succeed as a Developer. Excited to 
-              provide fresh perspectives and technical expertise to dynamic development projects. Seeking a challenging role where I can 
-              keep learning and developing and contribute significantly to the success of the team. 
-            </p>
+          <p className="sm:leading-6 md:leading-6 lg:leading-8">
+              A Proficient Full Stack Developer with expertise in backend programming, API integration, and database management.
+              Proficient in technologies like Django, ReactJS, NextJS, and PostgreSQL, focused on building scalable, secure, and efficient web solutions.
+          </p>
+          <p className="sm:leading-6 md:leading-6 lg:leading-8">
+              Experienced in creating seamless front-end and back-end interactions, delivering high-quality outcomes within tight deadlines.
+              Certified in programming and digital marketing, with a strong track record of designing innovative projects that prioritize user experience
+              and cybersecurity best practices.
+          </p>
           </div>
         </div>
         <div className="mt-28 mx-auto">

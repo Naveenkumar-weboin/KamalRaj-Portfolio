@@ -8,7 +8,7 @@ const CategoryCard = () => {
         Design
       </div>
       <div className=" bg-gradient-to-l from-[#cde1ff] to-[#f9d2ff] rounded-[0.89rem] px-2 md:px-3 md:py-1 text-[#4e0aa2]">
-        Anime
+        Gaming
       </div>
       <div className=" bg-gradient-to-l from-[#ffdaf9] to-[#ffdcdc] rounded-[0.89rem] px-2 md:px-3 md:py-1 text-[#690c58]">
         Tv Series
